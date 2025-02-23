@@ -1,0 +1,38 @@
+🌺 Iris Flower Classification – Naïve Bayes Model
+
+
+
+A Machine Learning project using Naïve Bayes Classifier to classify Iris flower species based on their sepal and petal dimensions.
+
+📌 Project Overview
+🌱 Dataset: Iris Dataset (from Scikit-Learn)
+🧠 Algorithm: Naïve Bayes (GaussianNB)
+🌼 Target Classes:
+
+Iris Setosa 🌿
+Iris Versicolor 🌺
+Iris Virginica 🌾
+🎯 Goal: Predict the species of an Iris flower based on sepal/petal length & width.
+📊 Dataset Details
+The Iris dataset contains 150 samples with four features and one target variable:
+
+Sepal Length (cm)	Sepal Width (cm)	Petal Length (cm)	Petal Width (cm)	Species
+5.1	3.5	1.4	0.2	Setosa
+4.9	3.0	1.4	0.2	Setosa
+4.7	3.2	1.3	0.2	Setosa
+
+Total Samples: 150
+Classes: 3 (Setosa, Versicolor, Virginica)
+🚀 Technologies Used
+✅ Python 🐍
+✅ Pandas, NumPy – Data Processing
+✅ Scikit-Learn – Naïve Bayes Classifier
+✅ Matplotlib, Seaborn – Data Visualization
+
+📈 Model Performance
+Metric	Value
+Accuracy	~95%
+Precision	High
+Recall	High
+F1-Score	High
+🔹 Gaussian Naïve Bayes (GNB) is used since the features are continuous.
